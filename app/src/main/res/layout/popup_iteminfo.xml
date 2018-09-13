@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/SHADOW"
+        android:clickable="true"
+        android:id="@+id/shadow"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="vertical"
+                android:background="@color/WHITE"
+                android:layout_margin="32dp"
+                android:clickable="true">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="42dp"
+                    android:text="Ad Info"
+                    android:id="@+id/textView"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="20dp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ivAdImage"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginTop="16dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Item Name"
+                    android:id="@+id/tvItemName"
+                    android:layout_marginLeft="12dp"
+                    android:textSize="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:layout_marginRight="12dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$000.00"
+                    android:id="@+id/tvPrice"
+                    android:layout_marginLeft="12dp"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="16dp" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="8dp">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:id="@+id/profilepicturethumb"
+                        app:civ_border_width="1dp"
+                        app:civ_border_color="@color/colorPrimary"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Username"
+                        android:id="@+id/tvUsername"
+                        android:layout_toRightOf="@+id/profilepicturethumb"
+                        android:layout_alignTop="@+id/profilepicturethumb"
+                        android:textSize="16dp"
+                        android:textIsSelectable="false"
+                        android:layout_gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rating ---%"
+                        android:id="@+id/tvUserRating"
+                        android:layout_toRightOf="@+id/profilepicturethumb"
+                        android:textSize="14dp"
+                        android:textIsSelectable="false"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_below="@+id/tvUsername" />
+                </RelativeLayout>
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="42dp"
+                    android:text="Go to Full Ad"
+                    android:id="@+id/buttonFullAd"
+                    android:layout_weight="1"
+                    android:background="@color/BLUE"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:textColor="@color/WHITE" />
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="42dp"
+                    android:text="Go to User Profile"
+                    android:id="@+id/buttonOtherProfile"
+                    android:layout_weight="1"
+                    android:background="@color/BLUE"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:textColor="@color/WHITE"
+                    android:layout_marginBottom="4dp" />
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="42dp"
+                    android:text="Close"
+                    android:id="@+id/cancel"
+                    android:layout_weight="1"
+                    android:background="@color/WHITE"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:textColor="@color/LIGHTGREY" />
+
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>

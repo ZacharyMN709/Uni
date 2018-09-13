@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/SHADOW"
+        android:clickable="true"
+        android:id="@+id/shadow"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="vertical"
+                android:background="@color/WHITE"
+                android:layout_margin="32dp"
+                android:clickable="true">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="42dp"
+                    android:text="Forgot Pass?"
+                    android:id="@+id/textView"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="42dp"
+                    android:id="@+id/etForgot"
+                    android:textColor="@color/BLACK"
+                    android:textSize="14dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:background="@color/PUREWHITE"
+                    android:hint="Email"
+                    android:paddingLeft="8dp"
+                    android:elevation="4dp" />
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="42dp"
+                    android:text="Retrieve Password"
+                    android:id="@+id/confirm"
+                    android:layout_weight="1"
+                    android:background="@color/BLUE"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:textColor="@color/WHITE" />
+
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>

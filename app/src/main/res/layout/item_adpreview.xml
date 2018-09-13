@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="120dp"
+        android:background="@color/PUREWHITE"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_centerHorizontal="true"
+        android:elevation="2dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/ivAdImage"
+            android:background="@color/colorPrimary" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/ADHOLDER"
+            android:layout_toRightOf="@+id/ivAdImage"
+            android:layout_toLeftOf="@+id/ICONHOLDER"
+            android:layout_above="@+id/USERHOLDER"
+            android:clickable="true">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Item Name"
+                android:id="@+id/tvItemName"
+                android:layout_marginLeft="12dp"
+                android:textSize="16dp"
+                android:layout_marginTop="4dp"
+                android:maxLines="2"
+                android:lines="2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$000.00"
+                android:id="@+id/tvPrice"
+                android:layout_below="@+id/tvItemName"
+                android:layout_marginLeft="12dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvTime"
+                android:layout_below="@+id/tvItemName"
+                android:layout_toRightOf="@+id/tvPrice"
+                android:layout_marginLeft="4dp"
+                android:layout_alignBottom="@+id/tvPrice"
+                android:gravity="bottom|left"
+                android:paddingBottom="1dp"
+                android:textColor="@color/LIGHTGREY" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/USERHOLDER"
+            android:layout_toRightOf="@+id/ivAdImage"
+            android:layout_toLeftOf="@+id/ICONHOLDER"
+            android:layout_alignParentBottom="true"
+            android:clickable="true">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/profilepicturethumb"
+                app:civ_border_width="1dp"
+                app:civ_border_color="@color/colorPrimary"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginLeft="12dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="16dp"
+                android:text="Username"
+                android:id="@+id/tvUsername"
+                android:layout_toRightOf="@+id/profilepicturethumb"
+                android:layout_alignTop="@+id/profilepicturethumb"
+                android:textSize="12dp"
+                android:textIsSelectable="false"
+                android:layout_marginTop="4dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="16dp"
+                android:text="- - -"
+                android:id="@+id/tvUserRating"
+                android:layout_toRightOf="@+id/profilepicturethumb"
+                android:layout_below="@+id/tvUsername"
+                android:gravity="bottom"
+                android:textSize="12dp"
+                android:textIsSelectable="false" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:id="@+id/ICONHOLDER">
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:id="@+id/AdIconFavourite"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/ic_heart_red_empty"
+                android:padding="8dp"
+                android:layout_margin="8dp" />
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:id="@+id/AdIconBottom"
+                android:layout_alignParentBottom="true"
+                android:src="@drawable/ic_purple_chat"
+                android:padding="8dp"
+                android:layout_margin="8dp" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

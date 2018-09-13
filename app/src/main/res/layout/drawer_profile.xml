@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/WHITE">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/PUREWHITE"
+            android:elevation="2dp"
+            android:id="@+id/profiletop">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="24dp"
+                android:id="@+id/PROFILETOPLEFT">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="- - -"
+                    android:id="@+id/tvUserRating"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"
+                    android:textSize="24dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="User Rating"
+                    android:id="@+id/USERRATING"
+                    android:layout_below="@+id/tvUserRating"
+                    android:textColor="@color/GREY"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="10dp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="24dp"
+                android:id="@+id/PROFILETOPRIGHT">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="- - -"
+                    android:id="@+id/tvItemsSold"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"
+                    android:textSize="24dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Items Sold"
+                    android:id="@+id/ITEMSSOLD"
+                    android:layout_below="@+id/tvItemsSold"
+                    android:textColor="@color/GREY"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="10dp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/profilemid"
+            android:layout_below="@+id/profiletop"
+            android:weightSum="2"
+            android:layout_marginBottom="32dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginRight="56dp"
+                android:id="@+id/PROFILEMIDLEFT">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Post Secondary"
+                    android:id="@+id/POSTSECONDARY"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="10dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginBottom="4dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="- - -"
+                    android:id="@+id/tvPSE"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/POSTSECONDARY"
+                    android:textColor="@color/BLACK"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginLeft="56dp"
+                android:id="@+id/PROFILEMIDRIGHT">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Studying"
+                    android:id="@+id/STUDYING"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="10dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginBottom="4dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="- - -"
+                    android:id="@+id/tvStudying"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/STUDYING"
+                    android:textColor="@color/BLACK"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/profilebottom"
+            android:layout_below="@+id/profilemid">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Items"
+                android:id="@+id/textView18"
+                android:layout_marginLeft="16dp"
+                android:textColor="@color/GREY"
+                android:textSize="12dp"
+                android:layout_marginBottom="8dp"
+                android:textStyle="bold" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/profileAdPreviews"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="@null"
+                android:dividerHeight="0dp"
+                android:layout_below="@+id/textView18"
+                android:paddingBottom="72dp"
+                android:clipToPadding="false" />
+        </RelativeLayout>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/fab_margin"
+            android:src="@drawable/ic_plus_dark"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:tint="@color/WHITE"
+            android:onClick="placeAd"
+            app:backgroundTint="@color/colorPrimary" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/profilepicture"
+            android:layout_centerHorizontal="true"
+            app:civ_border_width="4dp"
+            app:civ_border_color="@color/colorPrimary"
+            android:elevation="4dp"
+            android:layout_marginTop="20dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragmentholder"/>
+
+</RelativeLayout>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/WHITE">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimary">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Add up to 5 photos"
+                        android:id="@+id/textView8"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:textColor="@color/WHITE"
+                        android:layout_marginTop="12dp"
+                        android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+
+                <HorizontalScrollView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/horizontalScrollView"
+                    android:background="@color/colorPrimary">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <android.support.design.widget.FloatingActionButton
+                            android:id="@+id/fab"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/ic_camera"
+                            app:backgroundTint="@color/WHITE"
+                            android:onClick="AddPhoto"
+                            android:layout_centerVertical="true"
+                            android:layout_margin="16dp" />
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ibImageA"
+                            android:layout_marginBottom="8dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginRight="4dp"
+                            android:layout_marginLeft="4dp"
+                            android:layout_gravity="center_vertical"
+                            android:background="@color/WHITE" />
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ibImageB"
+                            android:layout_marginBottom="8dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginRight="4dp"
+                            android:layout_marginLeft="4dp"
+                            android:layout_gravity="center_vertical"
+                            android:background="@color/WHITE" />
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ibImageC"
+                            android:layout_marginBottom="8dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginRight="4dp"
+                            android:layout_marginLeft="4dp"
+                            android:layout_gravity="center_vertical"
+                            android:background="@color/WHITE" />
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ibImageD"
+                            android:layout_marginBottom="8dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginRight="4dp"
+                            android:layout_marginLeft="4dp"
+                            android:layout_gravity="center_vertical"
+                            android:background="@color/WHITE" />
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ibImageE"
+                            android:layout_marginBottom="8dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginRight="4dp"
+                            android:layout_marginLeft="4dp"
+                            android:layout_gravity="center_vertical"
+                            android:background="@color/WHITE" />
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Item Info"
+                    android:id="@+id/ITEMINFO"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginTop="8dp" />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="42dp"
+                    android:id="@+id/etItemName"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:background="@color/PUREWHITE"
+                    android:textColor="@color/BLACK"
+                    android:textColorHint="@color/LIGHTGREY"
+                    android:hint="Item Name"
+                    android:elevation="4dp"
+                    android:paddingLeft="8dp"
+                    android:layout_marginTop="8dp" />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/etDescription"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:background="@color/PUREWHITE"
+                    android:textColor="@color/BLACK"
+                    android:textColorHint="@color/LIGHTGREY"
+                    android:hint="Description"
+                    android:elevation="4dp"
+                    android:paddingLeft="8dp"
+                    android:layout_marginTop="8dp"
+                    android:inputType="textMultiLine"
+                    android:minHeight="42dp" />
+
+                <Spinner
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spinnerCategory"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:paddingBottom="8dp"
+                    android:layout_marginTop="16dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Condition"
+                    android:id="@+id/CONDITION"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:paddingBottom="4dp" />
+
+                <RadioGroup
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rgCondition"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginRight="24dp"
+                    android:layout_marginBottom="16dp"
+                    android:paddingBottom="8dp"
+                    android:theme="@style/AppTheme.Calendar">
+
+                    <RadioButton
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Unused"
+                        android:id="@+id/rgUnused"
+                        android:checked="false" />
+
+                    <RadioButton
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Used"
+                        android:id="@+id/rgUsed"
+                        android:checked="false" />
+
+                    <RadioButton
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Broken/Damaged"
+                        android:id="@+id/rgBroken"
+                        android:checked="false" />
+                </RadioGroup>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Price"
+                    android:id="@+id/PRICE"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp" />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="42dp"
+                    android:id="@+id/etPrice"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:background="@color/PUREWHITE"
+                    android:textColor="@color/BLACK"
+                    android:textColorHint="@color/LIGHTGREY"
+                    android:hint="Price"
+                    android:elevation="4dp"
+                    android:paddingLeft="8dp"
+                    android:layout_marginTop="8dp"
+                    android:inputType="numberDecimal" />
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="42dp"
+                    android:text="Place Ad"
+                    android:id="@+id/placead"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:textColor="@color/WHITE"
+                    android:background="@color/BLUE"
+                    android:layout_marginTop="32dp"
+                    android:onClick="Confirm" />
+
+                <Space
+                    android:layout_width="fill_parent"
+                    android:layout_height="32dp" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

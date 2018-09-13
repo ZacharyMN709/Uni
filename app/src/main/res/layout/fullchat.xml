@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:id="@+id/lvFullChat"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:layout_above="@+id/divider"
+        android:paddingTop="8dp"
+        android:transcriptMode="alwaysScroll" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:id="@+id/divider"
+        android:background="@color/colorPrimaryDark"
+        android:layout_above="@+id/messageholder" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:id="@+id/messageholder"
+        android:layout_alignParentBottom="true">
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etMessage"
+            android:hint="Send a message"
+            android:paddingLeft="4dp"
+            android:layout_alignParentBottom="false"
+            android:layout_toLeftOf="@+id/chatsend"
+            android:maxLines="3" />
+
+        <ImageButton
+            android:layout_width="42dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/chatsend"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_menu_send"
+            android:tint="@color/WHITE"
+            android:background="@color/colorPrimary"
+            android:layout_alignParentBottom="false"
+            android:layout_alignTop="@+id/etMessage"
+            android:layout_alignBottom="@+id/etMessage"
+            android:onClick="sendmessage" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragmentholder"
+        android:elevation="4dp"
+        android:layout_alignParentBottom="false"/>
+</RelativeLayout>

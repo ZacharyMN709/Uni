@@ -1,0 +1,621 @@
+<resources>
+    <string name="app_name">Uni - Genesis</string>
+    <string name="search_hint">Search Uni</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="msg_failed_to_get_picture">Failed to get image</string>
+    <string name="txt_info">Quick sample for selecting images on Android</string>
+    <string name="msg_failed_to_get_intent_data">Picture select cancelled</string>
+    <string name="select_picture">Select Picture</string>
+    <string name="picture_too_small">Picture is too small</string>
+
+    <string name="empty_email">Email is empty!</string>
+    <string name="empty_password">Password is empty!</string>
+
+    <string name="invalid_email">Please use a college or university email</string>
+
+
+    <string-array name="PSE_array">
+        <item>Memorial University</item>
+        <item>Marine Institute</item>
+        <item>College of the North Atlantic Prince Phillip Drive</item>
+        <item>College of the North Atlantic Seal Cove</item>
+        <item>College of the North Atlantic Ridge Road</item>
+    </string-array>
+
+    <string-array name="Studying_array">
+        <item>Option 1</item>
+        <item>Option 2</item>
+    </string-array>
+
+    <string-array name="Gender_array">
+        <item>Female</item>
+        <item>Male</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="Category_array">
+        <item>Apparel</item>
+        <item>Electronics</item>
+        <item>Furniture</item>
+        <item>Housing</item>
+        <item>School Supplies</item>
+        <item>Textbooks &amp; Notes</item>
+        <item>Vehicles</item>
+        <item>Other</item>
+    </string-array>
+
+    <array name="Category_images">
+        <item>@drawable/cat_clothing</item>
+        <item>@drawable/cat_electronics</item>
+        <item>@drawable/cat_furniture</item>
+        <item>@drawable/cat_housing</item>
+        <item>@drawable/cat_supplies</item>
+        <item>@drawable/cat_textbooks</item>
+        <item>@drawable/cat_vehicles</item>
+        <item>@drawable/cat_other</item>
+    </array>
+
+    <array name="PPL_images_mock">
+        <item>@drawable/ruby</item>
+        <item>@drawable/yang</item>
+        <item>@drawable/weiss</item>
+        <item>@drawable/blake</item>
+        <item>@drawable/kobori</item>
+        <item>@drawable/salama</item>
+        <item>@drawable/sylphy</item>
+        <item>@drawable/muse</item>
+    </array>
+
+    <string-array name="Usernames_mock">
+        <item>Ruby</item>
+        <item>Yang</item>
+        <item>Weiss</item>
+        <item>Blake</item>
+        <item>Kobori</item>
+        <item>Salama</item>
+        <item>Sylphy</item>
+        <item>Muse</item>
+    </string-array>
+
+    <string-array name="Ratings_mock">
+        <item>85</item>
+        <item>62</item>
+        <item>89</item>
+        <item>92</item>
+        <item>91</item>
+        <item>77</item>
+        <item>58</item>
+        <item>86</item>
+        <item>000</item>
+        <item>100</item>
+    </string-array>
+
+    <string-array name="PSE_mock">
+        <item>Memorial University</item>
+        <item>College of the North Atlantic Ridge Road</item>
+        <item>Memorial University</item>
+        <item>College of the North Atlantic Prince Phillip Drive</item>
+        <item>Memorial University</item>
+        <item>College of the North Atlantic Seal Cove</item>
+        <item>Marine Institute</item>
+        <item>Marine Institute</item>
+    </string-array>
+
+    <string-array name="ItemsSold_mock">
+        <item>9</item>
+        <item>11</item>
+        <item>31</item>
+        <item>24</item>
+        <item>19</item>
+        <item>8</item>
+        <item>15</item>
+        <item>21</item>
+        <item>00</item>
+        <item>42</item>
+    </string-array>
+
+    <string-array name="Studying_array_MUN">
+        <item>Anthropology</item>
+        <item>Aquaculture</item>
+        <item>Archaeology</item>
+        <item>Biochemistry</item>
+        <item>Biology</item>
+        <item>Boreal Ecosystems &amp; Agri. Sci.</item>
+        <item>Business &amp; Org. Mgmt.</item>
+        <item>Business Admin (Grenfell)</item>
+        <item>Business Administration</item>
+        <item>Chemistry</item>
+        <item>Classics</item>
+        <item>Cognitive &amp; Behaviour Ecology</item>
+        <item>Communication Skills</item>
+        <item>Communication Studies</item>
+        <item>Computer Science</item>
+        <item>Earth Sciences</item>
+        <item>Economics</item>
+        <item>Educ. &amp; Francophone Lit. &amp; Cult.</item>
+        <item>Education</item>
+        <item>Electronics</item>
+        <item>Electrotechnology</item>
+        <item>Employment Relations</item>
+        <item>Engineering</item>
+        <item>Engineering Graphics</item>
+        <item>Engineering Systems</item>
+        <item>English</item>
+        <item>Environmental Policy</item>
+        <item>Environmental Science</item>
+        <item>Environmental Studies</item>
+        <item>Ethnomusicology</item>
+        <item>Fluids</item>
+        <item>Folklore</item>
+        <item>Food Technology</item>
+        <item>French</item>
+        <item>Gender Studies</item>
+        <item>Geography</item>
+        <item>German</item>
+        <item>Health Privacy Law Training</item>
+        <item>History</item>
+        <item>Human Kinetics and Recreation</item>
+        <item>Humanities</item>
+        <item>Instrumentation and Controls</item>
+        <item>Interdisciplinary</item>
+        <item>Language</item>
+        <item>Law and Society</item>
+        <item>Linguistics</item>
+        <item>Marine Biology</item>
+        <item>Marine Eng. Knowledge</item>
+        <item>Marine Environment</item>
+        <item>Maritime Stds/Tech Mgmt</item>
+        <item>Materials and Processes</item>
+        <item>Mathematics</item>
+        <item>Mathematics - Statistics</item>
+        <item>Mechanics</item>
+        <item>Medicine</item>
+        <item>Medieval Studies</item>
+        <item>Mobility</item>
+        <item>Music</item>
+        <item>Nautical Science</item>
+        <item>Naval Architecture</item>
+        <item>Nursing</item>
+        <item>Ocean Mapping</item>
+        <item>Ocean Sciences</item>
+        <item>Oceanography</item>
+        <item>Orientation</item>
+        <item>Pharmacy</item>
+        <item>Philosophy</item>
+        <item>Physics</item>
+        <item>Police Studies</item>
+        <item>Political Science</item>
+        <item>Post Graduate Certificate</item>
+        <item>Psychology</item>
+        <item>Quality Assurance</item>
+        <item>Religious Studies</item>
+        <item>Remotely Oper Vehicle Operator</item>
+        <item>Resource Management</item>
+        <item>Russian</item>
+        <item>Safety</item>
+        <item>Science</item>
+        <item>Scientific Computing</item>
+        <item>Social Work</item>
+        <item>Social/Cultural Studies</item>
+        <item>Sociology</item>
+        <item>Spanish</item>
+        <item>Technical Project</item>
+        <item>Theatre</item>
+        <item>Theoretical Physics</item>
+        <item>Thermodynamics</item>
+        <item>Tourism</item>
+        <item>University</item>
+        <item>Visual Arts</item>
+        <item>Work Term</item>
+        <item>Workshop Practice</item>
+    </string-array>
+
+    <string-array name="Studying_array_MI">
+        <item>Aquaculture (Mussel/Salmon)</item>
+        <item>Bridge Watch</item>
+        <item>Fire Rescue</item>
+        <item>Food Safety</item>
+        <item>Food Safety - Post Graduate Certificate</item>
+        <item>Food Technology</item>
+        <item>Marine Diesel Mechanics</item>
+        <item>Marine Engineering</item>
+        <item>Marine Engineering Systems Design</item>
+        <item>Marine Environmental Technology</item>
+        <item>Marine Studies (Fisheries Resource Management)</item>
+        <item>Marine Studies (Marine Spatial Planning and Management)</item>
+        <item>Maritime Management</item>
+        <item>Maritime Studies</item>
+        <item>Nautical Science</item>
+        <item>Naval Architecture</item>
+        <item>Ocean Mapping</item>
+        <item>Quality Management</item>
+        <item>Remotely Operated Vehicles (ROV Operator)</item>
+        <item>Sustainable Aquaculture</item>
+        <item>Technology</item>
+        <item>Technology Management (Aquaculture Technology)</item>
+        <item>Technology Management (Engineering/Applied Science Technology)</item>
+        <item>Underwater Vehicles</item>
+        <item>Water Quality</item>
+    </string-array>
+
+    <string-array name="Studying_array_CNA">
+        <item>Aboriginal Bridging Program</item>
+        <item>Aircraft Maintenance Engineering Technician</item>
+        <item>Aircraft Structural Repair Technician</item>
+        <item>Architectural Engineering Technology</item>
+        <item>Automotive Service Technician</item>
+        <item>Baker</item>
+        <item>Business Administration</item>
+        <item>Cabinetmaker</item>
+        <item>Carpenter</item>
+        <item>Chemical Process Engineering Technology (Co-op)</item>
+        <item>Civil Engineering Technology (Co-op)</item>
+        <item>Commercial Driver</item>
+        <item>Community Recreation Leadership</item>
+        <item>Community Studies</item>
+        <item>Comprehensive Arts &amp; Science (CAS)</item>
+        <item>Computer Systems and Networking</item>
+        <item>Computing Systems Engineering Technology (Co-op)</item>
+        <item>Construction / Industrial Electrician</item>
+        <item>Cook</item>
+        <item>Diagnostic Ultrasonography</item>
+        <item>Digital Animation</item>
+        <item>Digital Filmmaking</item>
+        <item>Early Childhood Education</item>
+        <item>Electrical Engineering Technology (Power &amp; Controls) Co-op</item>
+        <item>Electronic Systems Engineering Technology (Co-op)</item>
+        <item>Electronics Engineering Technology (Biomedical)</item>
+        <item>Engineering Technology (First Year)</item>
+        <item>Environmental Engineering Technology - Advanced Diploma</item>
+        <item>Fish and Wildlife Technician</item>
+        <item>Forest Resources Technician</item>
+        <item>Geomatics/Surveying Engineering Technology (Co-op)</item>
+        <item>GIS Applications Specialist (Post Diploma)</item>
+        <item>Graphic Communications</item>
+        <item>Graphic Design</item>
+        <item>Hairstylist</item>
+        <item>Health Informatics (Post Diploma)</item>
+        <item>Heavy Duty Equipment Technician/Truck and Transport Mechanic</item>
+        <item>Heavy Equipment Operator</item>
+        <item>Home Support Worker / Personal Care Attendant</item>
+        <item>Industrial Engineering Technology (Co-op)</item>
+        <item>Industrial Mechanic (Millwright)</item>
+        <item>Information Management (Post Diploma)</item>
+        <item>Instrumentation and Control Technician</item>
+        <item>Instrumentation and Controls Engineering Technology</item>
+        <item>Journalism</item>
+        <item>Journalism (Post Diploma)</item>
+        <item>Machinist</item>
+        <item>Mechanical Engineering Technology</item>
+        <item>Mechanical Engineering Technology (Manufacturing) Co-op</item>
+        <item>Medical Laboratory Assistant</item>
+        <item>Medical Laboratory Sciences</item>
+        <item>Medical Radiography</item>
+        <item>Metal Fabricator (Fitter)</item>
+        <item>Mining Technician</item>
+        <item>Mobile Crane Operator</item>
+        <item>Motor Vehicle Body Repairer (Metal And Paint)</item>
+        <item>Music: Performance, Business &amp; Technology</item>
+        <item>Non-Destructive Testing Technician</item>
+        <item>Office Administration</item>
+        <item>Petroleum Engineering Technology (Co-op)</item>
+        <item>Plumber</item>
+        <item>Power Engineer 4th Class</item>
+        <item>Powerline Technician (Operating)</item>
+        <item>Practical Nursing</item>
+        <item>Primary Care Paramedicine</item>
+        <item>Process Operations Engineering Technology</item>
+        <item>Programmer Analyst (Business) Co-op</item>
+        <item>Refrigeration &amp; Air Conditioning Mechanic</item>
+        <item>Rehabilitation Assistant (OTA &amp; PTA) (DL)</item>
+        <item>Renovation Technician</item>
+        <item>Respiratory Therapy</item>
+        <item>Safety Engineering Technology (Post Diploma) Co-op</item>
+        <item>Sheet Metal Worker</item>
+        <item>Small Equipment Service Technician</item>
+        <item>Software Development</item>
+        <item>Sound Recording &amp; Production</item>
+        <item>Steamfitter / Pipefitter</item>
+        <item>Textiles: Craft &amp; Apparel Design</item>
+        <item>Tourism &amp; Hospitality</item>
+        <item>Video Game Art &amp; Design</item>
+        <item>Web Development</item>
+        <item>Welder</item>
+        <item>Welder / Metal Fabricator (Fitter)</item>
+        <item>Welding Engineering Technician</item>
+        <item>X-Ray Skills for Medical Laboratory Technologists</item>
+    </string-array>
+
+    <string name="TermsofUse_html">
+        <![CDATA[
+        These Terms of Use, the Privacy Policy, the Mobile Devices Terms and all policies site set out the terms on which we offer you access to and use of our site, services, applications and tools (collectively "services"). All policies, the Mobile Devices Terms, and the Privacy Policy are incorporated into these Terms of Use. You agree to comply with all the above when accessing or using our Services.<br><br>
+
+By accessing Uni you are agreeing to the following terms, which are designed to make sure that Uni works for everyone. Uni is provided to you by Uni Software Productions Inc., Suite 3003, Bruneau Centre for Research and Innovation, Memorial University, St. John’s, NL, Canada. This policy is effective January 1, 2016.<br><br>
+
+<strong>Your Account</strong><br>
+In order to access and use some or a portion of the Services, you may be required to register with us and set up an account with your email address and a password (your “Account”).  The email address you provide will be your email address, and you are solely responsible for maintaining the confidentiality of your password. You are solely responsible for all activities conducted pursuant to access to your Account. Therefore, you should protect your password and make your password difficult for others to guess.<br><br>
+
+You may connect to the Services with a third-party service (for example, but not limited to, Facebook) and you give us permission to access, store, and use your information from that service as permitted by that service and as may be described in our Privacy Policy. If you believe your Account may have been compromised or misused, contact us immediately at Uni Software Productions Inc. Customer Support.<br><br>
+
+<strong>Using Uni Services</strong><br>
+You will post items in the appropriate category or area and will not do any of the following:<br><br>
+
+• Violate any laws or our Prohibited Content Policy;<br>
+• Be false or misleading in your advertisements or communications;<br>
+• Infringe any third-party right;<br>
+• Distribute or contain spam or chain letters;<br>
+• Distribute viruses or any other technologies that may harm Uni or the interests or property of Uni users;<br>
+• Impose an unreasonable load on our infrastructure or interfere with the proper working of the Uni;<br>
+• Copy, modify, or distribute any other person\'s content;<br>
+• Use any automated means to access Uni and collect content for any purpose without our express written permission (for example, but not limited to, spider or scraper programs);<br>
+• Harvest or otherwise collect information about others, including email addresses, without their consent;<br>
+• Bypass measures used to prevent or restrict access to Uni.<br><br>
+
+<strong>Abusing Uni Services</strong><br>
+Please use the flagging system to tell us about any problems or offensive content so that together we can keep the Services site working properly. We may limit or terminate our Services, remove hosted content and take technical and legal steps to keep users off Uni if we think that they are creating problems or acting inconsistently with the letter or spirit of our policies. However, whether we decide to take any of these steps, remove hosted content or keep a user off Uni or not, we do not accept any liability for monitoring Uni or for unauthorized or unlawful content on Uni or use of Uni. by users.<br><br>
+
+<strong>Posting</strong><br>
+We reserve the right to limit the amount of posts a user may make in an individual category or overall on Uni. Any attempts to post an amount exceeding a set limit may be deemed as spam and/or an unreasonable load on our infrastructure. <br><br>
+
+<strong>Fees and Services</strong><br>
+We may charge fees for certain Services. If the service you use charges a fee, you will be able to review and accept that charge. Our fees are quoted in Canadian Dollars, and we may change them from time to time. We will notify you of changes to our fee policy by posting such changes on the site. We may choose to temporarily change our fees for promotional events or new services; these changes are effective when we announce the promotional event or new service. Our fees are non-refundable, and you are responsible for paying them when they\'re due. If you don\'t, we may limit your ability to use the Services. If your payment method fails or your account is past due, we may collect fees owed using other collection mechanisms.<br><br>
+
+<strong>Content</strong><br>
+Uni Services contains content from Uni Software Productions Inc., you, and other users. You agree not to copy, modify, or distribute Uni, its services, our copyrights trademarks, or intellectual property associated with Uni. When you give us content, you are granting us a non-exclusive, worldwide, perpetual, irrevocable, royalty-free, sub-licensable right to exercise the copyright, publicity, and database rights to that content. If you believe that your rights have been violated, please notify us at the designated contact point contact@unisoftwareproductions.ca and we will investigate the matter. We reserve the right to remove content where we have grounds for suspecting the violation of these terms or the rights of any other party.<br><br>
+
+<strong>Reporting Intellectual Property Infringements</strong><br>
+Do not post content that infringes the rights of third parties. This includes, but is not limited to, content that infringes on intellectual property rights such as copyright and trademark (e.g. offering counterfeit items for sale). We reserve the right to remove content where we have grounds for suspecting the violation of these terms, our policies or of any party\'s rights. The following steps are for reporting a listing to Uni Software Productions Inc. that you believe to be infringing on your intellectual property rights. Only the intellectual property rights owner can report of potentially infringing items or listings. If you have a good faith belief that a listing on any of the Uni Services infringes your copyright, trademark, or other intellectual property rights, all you need to do is contact Uni Software Productions Inc. at the designated contact point contact@unisoftwareproductions.ca. We reserve the right to share, in accordance with applicable law, the completed complaint with the third party that originally posted the potentially infringing listing.<br><br>
+
+<strong>Disclaimers and Limitations of Liability</strong><br>
+The Uni Services are provided “as is” and “as available”. You agree not to hold us responsible for things other users post or do. As most of the stuff on the Uni Services comes from other users, we do not guarantee the accuracy of postings or user communications or the quality, safety, or legality of what is offered. We also cannot guarantee continuous or secure access to our Services. Notification functionality in our Services may not occur in real time. Such functionality is subject to delays beyond our control, including without limitation, delays or latency due to your physical location or your wireless data service provider’s network. Accordingly, to the extent legally permitted we expressly disclaim all warranties, representations and conditions, express or implied, including those of quality, merchantability, merchantable quality, durability, fitness for a particular purpose and those arising by statute. We are not liable for any loss, whether of money (including profit), goodwill, or reputation, or any special, indirect, or consequential damages arising out of your use of Uni, even if you advise us or we could reasonably foresee the possibility of any such damage occurring. Some jurisdictions do not allow the disclaimer of warranties or exclusion of damages, so such disclaimers and exclusions may not apply to you.<br><br>
+
+Despite the previous paragraph, if we are found to be liable, our liability to you or any third party (whether in contract, tort, negligence, strict liability in tort, by statute or otherwise) is limited to the greater of (a) the total fees you pay to us in the 12 months prior to the action giving rise to liability, or (b) 100 Canadian Dollars.<br><br>
+
+<strong>Indemnification</strong><br>
+You will indemnify and hold harmless Uni Software Productions Inc. and its affiliates and our and their respective officers, directors, agents and employees (each an “Indemnified Party”), from any claim made by any third party, together with any amounts payable to the third party whether in settlement or as may otherwise be awarded, and reasonable legal costs incurred by any of the Indemnified Parties, arising from or relating to your use of the Uni services, any alleged violation by you of the applicable terms, and any alleged violation by you of any applicable law or regulation. We reserve the right, at our own expense, to assume the exclusive defense and control of any matter subject to indemnification by you, but doing so will not excuse your indemnity obligations.<br><br>
+
+<strong>Personal Information</strong><br>
+By using Uni Software Productions Inc., you agree to the collection, transfer, storage and use of information you provide on Uni by Uni Software Productions Inc. (the "data controller") on servers located in Canada as further described in our privacy policy.<br><br>
+
+<strong>General</strong><br>
+These terms and the other policies posted on Uni constitute the entire agreement between Uni Software Productions Inc. and you, superseding any prior agreements. This agreement is governed by the laws of Canada. We both submit to the non-exclusive jurisdiction of the courts of Canada. This will not affect your statutory rights if you are a consumer and applicable consumer law requires application of another law (such as the law of your country of residence) for certain topics. If we don\'t enforce any particular provision, we are not waiving our right to do so later. If a court strikes down any of these terms, the remaining terms will survive. We may automatically assign this agreement in our sole discretion in accordance with the notice provision below. Except for notices relating to illegal or infringing content, your notices to us must be sent by registered mail to:<br><br>
+
+Uni Software Productions<br>
+Suite 3003, Bruneau Centre for Research and Innovation, Memorial University of Newfoundland<br>
+P.O. Box 4200<br>
+St. John’s, NL A1C 5S7<br>
+Re: Uni: User Inquiries<br><br>
+
+We will send notices to you via the email address you provide, or by registered mail. Notices sent by registered mail will be deemed received five days following the date of mailing. We may update this agreement at any time, with updates taking effect when you next use the site or after 30 days, whichever is sooner. No other amendment to this agreement will be effective unless made in writing, signed by users and by us. <br><br>
+
+<strong>Mobile Devices Terms</strong><br>
+If you\'re accessing Uni from a mobile device using a Uni Mobile Application (the "Application"), the following terms and conditions ("Terms of Use") apply to you in addition to the applicable Mobile Privacy and Legal Notice or End User License Agreement, as the case may be. Your use of the Application confirms your agreement to these Terms of Use.<br><br>
+
+<strong>Application Use</strong><br>
+Uni Software Productions Inc. grants you the right to use the Application only for your personal use. You must comply with all applicable laws and third party terms of agreement when using the Application (e.g. your wireless data service agreement). The Application may not contain the same functionality available on the www.unicommunity.ca website.  You download and use of the Application is at your own discretion and risk, and you are solely responsible for any damages to your hardware device(s) or loss of data that results from the download or use of the Application.<br><br>
+
+<strong>Intellectual Property – Applications</strong><br>
+Uni Software Productions Inc. owns, or is the licensee to, all right, title, and interest in and to its Applications, including all rights under copyright, trade secret, trademark, and any and all other proprietary rights, including all applications, renewals, extensions, and restorations thereof. You will not modify, adapt, translate, prepare derivative works from, decompile, reverse-engineer, disassemble, or otherwise attempt to derive source code from any Application and you will not remove, obscure, or alter Uni Software Productions Inc.\'s copyright notice, trademarks or other proprietary rights notices affixed to, contained within, or accessed in conjunction with or by any Uni Software Productions Inc. Application.<br><br>
+]]>
+    </string>
+
+        <string name="PrivacyPolicy_html">
+        <![CDATA[
+<strong>Table of contents</strong><br>
+
+1. General<br>
+2. What personal information do we collect<br>
+3. How we use your personal information<br>
+4. Marketing Purposes<br>
+5. Cookies<br>
+6. Access to, review and rectification of your personal information<br>
+7. Protection and retention of your personal information<br>
+8. Other Information<br><br><br>
+
+<strong>1.  General </strong><br><br>
+
+This privacy policy describes the policy of Uni Software Productions Inc. regarding the collection, use, storage, sharing and protection of your personal information ("Privacy Policy"). This Privacy Policy applies to the www.unicommunity.ca website ("Uni") and all related websites, applications, services and tools where reference is made to this policy ("Services"), regardless of how you access the Services, including access through mobile devices. Uni Software Productions Inc. is the data controller.<br><br>
+
+<strong>Scope and consent:</strong><br>
+By using Uni and related Services, you give explicit consent to Uni for the collection, use, disclosure and retention of your personal information by us, as described in this Privacy Policy and our Terms of Use.<br><br>
+
+Uni may change this Privacy Policy from time to time. We advise you to read it regularly. Substantial changes to our Privacy Policy will be announced on our Website. The amended Privacy Policy will be effective immediately after it is first posted on our Website. This Privacy Policy is effective as of January, 2016. <br><br>
+
+<strong>2.  What personal information do we collect </strong><br><br>
+
+When you decide to provide us with your personal information, you agree that such information is sent to and stored on our servers. We collect the following types of personal information:<br><br>
+
+<strong>Information we collect automatically:</strong><br>
+When you visit our Website, use our Services and or reply to ads or other content, we automatically collect the information sent to us by your computer, mobile device or other equipment that provides access. This information includes, but is not limited to information from your interaction with our Website and Services. This includes, but is not limited to, device ID, device type, geo-location information, computer and connection information, statistics on page views, traffic to and from URLs owned by Uni Software Productions Inc., it’s agents and affiliates, referring URL, ad data, IP address and standard web log information; or information we collect through cookies, web beacons and similar technologies. <br><br>
+
+<strong>Information you provide to us:</strong><br>
+We collect and store any information you enter on our Website, Mobile Application or that you provide to us when you use our Services. This information includes, but is not limited to:<br><br>
+
+• Information that you provide to us when you register for an account or for the Services that you use;<br>
+• Additional information that you may provide to us through social media sites or third party Services;<br>
+• Information provided in the context of dispute resolution, correspondence through our Website or correspondence that is sent to us;<br>
+• Information about your location and the location of your device, including your device’s unique identifier information if you have enabled this service on your mobile device, and<br>
+• Your resume if you choose to submit it to us for consideration.<br><br>
+
+<strong>Information from other sources:</strong><br>
+We may receive or collect additional information about you from third parties and add this to our account information. This information includes, but is not limited to: demographic data, navigation data, additional contact data and additional data about you from other sources, such as public authorities, to the extent permitted by law.<br><br>
+
+<strong>3.  How we use your personal information</strong><br><br>
+
+You agree that we may use your personal information for the following purposes:<br><br>
+
+• To provide you access to our Services and Customer Support by means of e-mail;<br>
+• To prevent, detect and investigate potentially prohibited or illegal activities, fraud and security breaches and to enforce our Terms of Use;<br>
+• To personalize, measure and improve our Services, content and ads;<br>
+• To contact you, by e-mail, push notification, text message (SMS) or by telephone, to inquire about our Services and the services of Uni Software Productions Inc. and its affiliates, or for any other purposes as set forth in this Privacy Policy;<br>
+• To provide you with other services that you have requested, as described when we collected the information, and<br>
+• To consider you as a potential candidate if you choose to upload your resume through our careers page.<br><br>
+
+<strong>Sharing information with and registration on social media sites:</strong><br>
+We may offer sign-on Services that enable you to access the Website or related websites with your login credentials. We can also offer Services that enable you to share information with third party social media websites, such as Facebook, Google Plus and Twitter.<br><br>
+
+If you provide us access to personal information stored on third party websites, the scope of access to this personal information shall vary per website and will be determined by both your own browser settings and your consent. If you wish to connect your third party account to your Uni account and you consent to us accessing the information in these third party accounts, you agree that we can collect, use and store information from this third party website in accordance with this Privacy Policy.<br><br>
+
+<strong>Transfer of your personal information to third parties:</strong><br>
+We may disclose your personal information to third parties in accordance with this Privacy Policy and applicable legislation and regulations. As further described under Section 4, we will not disclose your personal information to third parties for their direct marketing purposes without your explicit consent. We may share your personal information with:<br><br>
+
+• Interested third parties with whom we provide data and/or information for market research purposes.<br>
+• Service providers with whom we have entered into an agreement to help us provide our Services on the website, such as financial service providers, marketing agencies and technical support. In such cases, the personal information shall remain under the control of Uni Software Productions Inc.<br>
+• Certain third parties (such as intellectual property rights holders, supervisory authorities, tax authorities, police and other regulatory authorities) if we are required to do so by law, or in accordance with our Privacy Policy.
+• Other third parties to whom you have given consent to share your information via Uni, e.g. in the framework of a cooperation;<br>
+• Companies that we intend to merge with in the context of a re-organisation or that acquire us;<br>
+• An intellectual property owner if the owner of an intellectual property right or an intermediary in good faith believes that an advertisement violates the rights of the owner. Before personal information is provided, the IP owner will enter into an agreement that, inter alia, stipulates that information is only provided on the strict condition that it may only be used in the context of legal proceedings and/or obtaining legal advice and/or to answer questions from the relevant advertiser<br><br>
+
+We may share your personal information:<br>
+• To comply with legal obligations or a court order; or<br>
+• If this is necessary for the prevention, detection or prosecution of criminal offenses, such as fraud, deceit or prosecution, or<br>
+• If it is necessary to maintain our policies or to protect the rights and freedoms of others.<br><br>
+
+Without limitation to the foregoing, we shall moreover - in our efforts to respect your privacy and to keep the website free of malicious persons or parties – not disclose your personal information to third parties without a court order or formal request from the government in accordance with applicable law, unless we believe in good faith that such disclosure is necessary to prevent impending injury or financial damages or to report alleged illegal activities.<br><br>
+
+<strong>Information you share on www.unicommunity.ca or the Uni Mobile Application:</strong><br>
+Our Website allows users to share advertisements and other information with other users, thereby making this shared information accessible to other users. Since our Website and Application also enable you to directly contact a buyer or seller, we recommend that you consider how you share your personal information with others. You are solely responsible for the personal information you share through our Website and Application, and therefore we cannot guarantee the privacy or security of the information shared by you with other users.<br><br>
+
+In case you visit our Website from a shared computer or a computer in an internet café, we strongly recommend that you log off after each session. If you do not want the shared computer to remember you and/or your credentials, you will need to remove cookies and/or the history of your website visits.<br><br>
+
+<strong>4.  Marketing Purposes</strong><br><br>
+
+You agree that we may use the information collected by us to send you offers, whether personalised or not, or to contact you by telephone regarding products or Services offered by Uni.<br><br>
+
+When you no longer wish to receive marketing communications from us, you can, where applicable, change your preferences in your Uni account, or follow the unsubscribe link in the marketing communication you received.<br><br>
+
+<strong>5.  Cookies</strong><br><br>
+
+When you use our Services, we and our service providers may place cookies (data files on your phone or mobile device’s drive) or web beacons (electronic images that are placed in a web page’s code) or similar technologies. We use cookies to help us identify you as a user, to provide you a better experience on our Website, to measure promotional effectiveness and to ensure trust and safety on our Website.<br><br>
+
+<strong>6.  Accessing, Reviewing and Changing Your Personal Information</strong><br><br>
+
+We cannot modify your personal information or account information. You can modify your own information by logging into your Uni account. When you place a classified ad, you may not be able to change your listing or delete your message. If you want to close your account (where applicable) with us, please send us a request at the contact point contact@unisoftwareproductions.ca. We will process your request within a reasonable period of time and process your personal information in accordance with applicable law. We may charge a fee to compensate costs; however the fee shall not exceed the amount permitted by law. If your information is factually incorrect or incomplete or irrelevant for the purposes for which we process your information, you can request us to modify or delete your information. If you have any questions, please contact us with the subject line ‘Request Privacy Policy’ via the contact point contact@unisoftwareproductions.ca.<br><br>
+
+<strong>7.  Protection and retention of your personal information</strong><br><br>
+
+We protect your information by using technical and administrative security measures (such as firewalls, data encryption, and physical and administrative access controls to the data and servers) that limit the risk of loss, abuse, unauthorised access, disclosure, and alteration. Nevertheless, if you believe your account has been abused, please contact us through the contact point contact@unisoftwareproductions.ca.<br><br>
+
+We retain personal information no longer than is legally permissible and delete personal information when it is no longer necessary for the purposes as described above.<br><br>
+
+<strong>8.  Other information</strong><br><br>
+
+<strong>Abuse and unsolicited commercial communications ("spam"):</strong><br>
+We do not tolerate abuse of our Website. You do not have permission to add other Uni users to your mailing list (e-mail or postal) for commercial purposes, even if a user has purchased something from you, unless the user has given his explicit consent. If you notice that someone is abusing our Website (spam or spoof emails), please notify us either through flagging the content or contact us at the contact point contact@unisoftwareproductions.ca.<br><br>
+
+It is not allowed to use our member-to-member communication resources to send spam or content that violates our Terms of Use in any other way. For your security, we may scan messages automatically and check for spam, viruses, phishing and other malicious activity or illegal or prohibited content. We do not permanently store messages sent through these resources.<br><br>
+
+<strong>Third Parties:</strong><br>
+Unless explicitly provided otherwise in this Privacy Policy, this Privacy Policy applies only to the use and transfer of information we collect from you. Uni has no control over the privacy policies of third parties that may apply to you. When we work with third parties or use third party tools to provide certain services, we will explicitly indicate which privacy policy applies to you. We therefore encourage you to ask questions before you disclose your personal information to others.<br><br>
+
+<strong>Contact:</strong><br>
+If you have any questions about Uni, or if you want more information about Uni Software Productions Inc. and how Uni Software Productions Inc. handles personal information and privacy, you can reach the contact point contact@unisoftwareproductions.ca.<br><br>
+]]>
+    </string>
+
+        <string name="ProhibitedPosting_html">
+        <![CDATA[
+        The list below details what can\'t be posted, or what has restrictions on posts, on Uni:<br><br>
+<strong>Adult</strong><br>
+Including pornography, nude photos, videos, articles or erotic products<br>
+Including prostitution, escort or accompanying services<br><br>
+<strong>Alcohol</strong><br>
+Including the delivery of alcohol and related beverages<br>
+<strong>Note:</strong> Selling empty bottles, labels, caps as collectibles is permitted<br><br>
+<strong>Baby Walkers</strong><br><br>
+<strong>Blood, Bodily Fluids and Body Parts</strong><br>
+Including organs<br>
+Including surrogacy, fertility and donor requests
+<br>(including sperm) <br><br>
+<strong>Burglary Tools</strong><br><br>
+<strong>Car seats and booster seats </strong>(manufactured prior to January 1st, 2012)<br><br>
+<strong>Child adoption services </strong>(seeking and offering)<br><br>
+<strong>Counterfeit items and distribution of copyrighted material</strong><br>
+Including currency, stamps, coins<br>
+Including e-books<br><br>
+<strong>Electronic Surveillance Equipment </strong><br>
+Designed or used primarily to illegally intercept/record the private actions or interactions of others without their knowledge or permission<br><br>
+<strong>Embargoed Goods</strong><br><br>
+<strong>Government issued IDs, Badges, Uniforms and Licenses </strong><br>
+Including transit, military, police, postal, etc.<br><br>
+<strong>Hazardous Materials </strong><br>
+Including chemicals, pesticides, fireworks<br>
+Including commercial-level fertilizers or pesticides.  Ie. Aerial pesticides or fertilizers used for dusting crops<br><br>
+<strong>Health or Weight Loss Products that have not been approved by Health Canada</strong><br><br>
+<strong>High-Powered Laser Pointers</strong><br><br>
+<strong>Illegal Drugs and Drug Paraphernalia </strong>(or any mention of related items, services or activities)<br>
+Including narcotics, steroids, marijuana, medicinal marijuana, etc. <br><br>
+<strong>Illegal Items and Services</strong><br><br>
+<strong>Ivory or Bone</strong><br>
+Including fossilized mammoth tusks<br>
+<strong>Note:</strong> Antiques that contain 5% or less of real ivory and were made before the year 1900, specifically musical instruments and furniture, are permitted. The year the item was manufactured as well as an image must be included in the ad.<br>
+<strong>Note:</strong> Bone, including fossilized teeth or bone, from non-ivory producing animals is permitted.  The species must be indicated in the ad. <br><br>
+<strong>Identity Documents, Personal Financial Records & Personal Information</strong><br>
+In any form, including mailing lists<br><br>
+<strong>Knives</strong><br>
+<strong>Note:</strong> Collectable knives and swords (unsharpened, fantasy/antique) and kitchen utensils & cutlery are permitted<br><br>
+<strong>Lottery Tickets, Sweepstakes Entries and Coin Operated Slot Machines</strong><br><br>
+<strong>Massage Services</strong><br>
+Ad images are to be limited to head shots or photographs of the facility (no full body images)<br>
+<strong>Note:</strong> Ads posted by a Registered Massage Therapist (RMT) who is able to provide insurance receipts for customers is permitted<br>
+<strong>Note:</strong> Massage as part of an aesthetics package by a registered Aesthetician, but not offered on its own, is permitted<br><br>
+<strong>New merchandise or services from network marketing companies, independent franchisees or distributors, or similar representatives</strong><br>
+Including items in the Buy and Sell category or ads attempting to recruit new representatives<br>
+<strong>Note:</strong> Representatives from reputable direct sale companies (such as Avon and Tupperware) are permitted to post one (1) ad in the most appropriate Services Category of their closest Kijiji City, advertising their presence or any new product lines or promotions that are available<br><br>
+<strong>Offensive and Obscene Material</strong><br>
+Including Nazi related artefacts and collectibles<br>
+<strong>Note:</strong> This excludes stamps, letters and envelopes with the Nazi symbol, currency issued by the Nazi government, military scripts and historically accurate WWII military model kits that have Nazi symbols<br><br>
+<strong>Prescription Drugs and Devices</strong><br><br>
+<strong>Recalled items</strong><br><br>
+<strong>Satellite products that violate the Radio-communication Act</strong><br><br>
+<strong>Stocks and Other Securities</strong><br><br>
+<strong>Stolen Property</strong><br><br>
+<strong>Taxidermied Animals</strong><br><br>
+<strong>Tobacco Products or other smoking related items</strong><br>
+Including hookahs, e-cigarettes, herbal blends, etc<br><br>
+<strong>Used Cosmetics</strong><br><br>
+<strong>Weapons</strong> (or any mention of related items, services or activities)<br>
+Including firearms, firearm parts and magazines, ammunition, BB and pellet guns, replica weapons, tear gas, stun guns, crossbows and martial arts weapons<br>
+Including Airsoft guns, parts and ammunition<br>
+<strong>Note:</strong> Archery and paintball equipment are permitted<br>
+]]>
+
+
+    </string>
+
+        <string name="EqualHousing_html">
+        <![CDATA[
+        Uni Software Productions Inc. supports equality in housing and we encourage users of our site to follow appropriate guidelines to comply with the human rights legislation that is in place in all of Canada’s provinces and territories, as well as any applicable local regulations. These laws prohibit denying a person housing, or discriminating in a tenancy agreement, based on the following prohibited grounds:<br><br>
+• Gender and gender-determined characteristics, including pregnancy;<br>
+• Age;<br>
+• Race or perceived race, ethnic background or origin, colour, or aboriginal origin;<br>
+• Ancestry, nationality, or place of origin;<br>
+• Religion, creed, religious beliefs, religious associations or religious activities;<br>
+• Physical or mental disability, or reliance on any remedial device to alleviate these conditions;<br>
+• Marital or familial status;<br>
+• Sexual orientation;<br>
+• Lawful source of income, including the receipt of public assistance;<br>
+• Social condition;<br>
+• Political beliefs, convictions, associations or activities;<br>
+• Citizenship;<br>
+• Language;<br>
+• Disfigurement, or irrational fear of contracting an illness or disease;<br>
+• Criminal charges or a criminal record; or<br>
+• An individual\'s association with another individual or class of individuals having these characteristics<br><br>
+
+<strong>Property Owner\'s & Manager\'s Responsibilities:</strong><br>
+As a property owner or manager you have a responsibility not to discriminate in the rental of property on the basis of the prohibited grounds of discrimination in force in your jurisdiction. Similarly, persons acting on your behalf in a rental transaction have a responsibility not to discriminate on the basis of the prohibited grounds of discrimination in force in your jurisdiction. It is not permitted to comply with a request from a property owner or manager to act in a discriminatory manner in a lease or rental. Moreover, a property owner or manager cannot establish discriminatory terms or conditions in the purchase or rental of a residential dwelling, deny that housing is available, or advertise that the property is available only to persons of a certain gender, age, race, colour, religion, sexual orientation, handicap, familial status, national origin, or any other prohibited ground of discrimination in force in your jurisdiction.<br><br>
+
+<strong>Renter\'s Rights:</strong><br>
+As someone seeking to rent an apartment, home or condo, you have the right to expect that housing will be available to you without discrimination or other limitations based on the prohibited grounds of discrimination in force in your jurisdiction. This includes the right to expect equal professional service, the opportunity to consider a broad range of housing choices, no discriminatory limitations on communities or locations of housing, no discrimination in the pricing or financing of housing, reasonable accommodations in rules, practices and procedures for persons with disabilities, and to be free from harassment or intimidation for exercising your rights.<br><br>
+
+<strong>Provincial and Territorial Law:</strong><br>
+The prohibited grounds of discrimination vary between each of Canada’s provinces and territories and as such the prohibited grounds of discrimination in your location may differ from those listed in the Uni Software Productions Inc. Equality in Housing Policy. Please inform yourself about the human rights legislation applicable in your location. If you encounter an Ad that you believe is discriminatory and you believe that it violates the Uni Software Productions Inc. Equality in Housing Policy, please flag the Ad as prohibited. Uni Software Productions Inc. reserves the right to remove an ad if it is flagged on any of our sites, or if we believe it causes problems or violates any law, policy, these terms, or of any party’s rights.<br><br>
+]]>
+    </string>
+
+</resources>

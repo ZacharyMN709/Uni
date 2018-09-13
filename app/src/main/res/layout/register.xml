@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/WHITE">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimary">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Create an account"
+                        android:id="@+id/textView8"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+                        android:textColor="@color/PUREWHITE"
+                        android:gravity="center"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:layout_centerHorizontal="true" />
+
+                    <android.support.design.widget.FloatingActionButton
+                        android:id="@+id/fab"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/ic_camera"
+                        android:layout_marginBottom="16dp"
+                        app:backgroundTint="@color/PUREWHITE"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@+id/textView8"
+                        android:onClick="AddPhoto" />
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/profilepicture"
+                        android:layout_below="@+id/fab"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="32dp"
+                        app:civ_border_width="2dp"
+                        app:civ_border_color="@color/colorPrimary"/>
+
+                </RelativeLayout>
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="42dp"
+                    android:id="@+id/etUsername"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:background="@color/PUREWHITE"
+                    android:textColor="@color/BLACK"
+                    android:textColorHint="@color/LIGHTGREY"
+                    android:hint="Username"
+                    android:elevation="4dp"
+                    android:paddingLeft="8dp"
+                    android:layout_marginTop="-16dp"
+                    android:layout_marginBottom="16dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Post-Secondary Institute"
+                    android:id="@+id/textView9"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="4dp"
+                    android:paddingBottom="4dp" />
+
+                <Spinner
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spinnerPSE"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:paddingBottom="4dp" />
+
+                <Spinner
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spinnerCourse"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="16dp"
+                    android:paddingBottom="8dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Gender"
+                    android:id="@+id/textView10"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:paddingBottom="4dp" />
+
+                <RadioGroup
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rgGender"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginRight="24dp"
+                    android:layout_marginBottom="16dp"
+                    android:paddingBottom="8dp"
+                    android:theme="@style/AppTheme.Calendar">
+
+                    <RadioButton
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Female"
+                        android:id="@+id/rgFemale" />
+
+                    <RadioButton
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Male"
+                        android:id="@+id/rgMale" />
+
+                    <RadioButton
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Other"
+                        android:id="@+id/rgOther" />
+                </RadioGroup>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Date of Birth"
+                    android:id="@+id/textView11"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="48dp"
+                    android:text="Choose Date"
+                    android:id="@+id/tvBirthDate"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:textColor="@color/PUREBLACK"
+                    android:textSize="16dp"
+                    android:onClick="calendarpopup"
+                    android:clickable="true"
+                    android:paddingTop="4dp" />
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="42dp"
+                    android:text="Create Account"
+                    android:id="@+id/createaccount"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:textColor="@color/WHITE"
+                    android:background="@color/BLUE"
+                    android:layout_marginTop="16dp"
+                    android:onClick="createaccount" />
+
+                <Space
+                    android:layout_width="fill_parent"
+                    android:layout_height="32dp" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragmentholder"/>
+
+</RelativeLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/WHITE">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/confirmhost">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Terms of Use"
+            android:id="@+id/textView39"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:paddingLeft="24dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollView6"
+            android:layout_above="@+id/cbLegal"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:text=""
+                android:id="@+id/tvTermsofUse"
+                android:textColor="#000000"
+                android:paddingLeft="16dp"
+                android:paddingRight="8dp"
+                android:lineSpacingExtra="6dp"/>
+        </ScrollView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Header"
+            android:background="@color/colorPrimary"
+            android:id="@+id/ConfirmHolder" >
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cbLegal"
+                android:textColor="@color/colorSecondaryDark"
+                android:checked="false"
+                android:theme="@style/WhiteCheckBox"
+                android:text="I have read and agree to the Terms of Use" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/confirmhost">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Decline"
+            android:id="@+id/legalcancel"
+            android:layout_centerHorizontal="true"
+            android:background="@color/WHITE"
+            android:layout_below="@+id/forgotpassemail"
+            android:layout_weight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/LIGHTGREY"
+            android:onClick="cancel" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Accept"
+            android:id="@+id/legalconfirm1"
+            android:layout_centerHorizontal="true"
+            android:background="@color/BLUE"
+            android:layout_below="@+id/forgotpassemail"
+            android:layout_weight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/WHITE" />
+
+    </LinearLayout>
+
+</RelativeLayout>

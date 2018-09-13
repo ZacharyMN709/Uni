@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/PURPLE</color>
+    <color name="colorPrimaryDark">@color/DARKPURPLE</color>
+    <color name="colorSecondary">@color/PUREWHITE</color>
+    <color name="colorSecondaryDark">@color/WHITE</color>
+    <color name="colorAccent">@color/BLUE</color>
+
+    <color name="colorFABPrimary">@color/colorPrimary</color>
+    <color name="colorFABSecondary">@color/colorSecondary</color>
+
+    <color name="DARKPURPLE">#65449B</color>
+    <color name="PURPLE">#8056C2</color>
+    <color name="YELLOW">#FAEB00</color>
+    <color name="BLUE">#2196F3</color>
+    <color name="ICEBLUE">#A0FFFF</color>
+    <color name="RED">#EC4234</color>
+
+    <color name="PUREWHITE">#FFFFFF</color>
+    <color name="WHITE">#F5F5F5</color>
+    <color name="LIGHTGREY">#B6B6B6</color>
+    <color name="GREY">#565656</color>
+    <color name="BLACK">#333333</color>
+    <color name="PUREBLACK">#000000</color>
+
+    <color name="CLEAR">#00000000</color>
+    <color name="SHADOW">#90999999</color>
+
+    <color name="Rating_text">@color/CLEAR</color>
+
+</resources>
